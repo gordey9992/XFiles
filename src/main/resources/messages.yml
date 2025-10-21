@@ -1,0 +1,27 @@
+# Сообщения плагина The X-Files (на русском языке)
+
+# Общие сообщения
+no-permission: "&cУ вас нет разрешения на использование этой команды!"
+unknown-command: "&cНеизвестная команда. Используйте &f/xfiles help &cдля справки."
+config-reloaded: "&aКонфигурация успешно перезагружена!"
+
+# Сообщения архивов
+no-archives: "&7Архивы не найдены."
+archive-not-found: "&cАрхив с указанным ID не найден."
+usage-archive: "&cИспользование: &f/xfiles archive <id>"
+
+# Сообщения лабораторий
+no-laboratories: "&7Лаборатории не найдены."
+laboratory-not-found: "&cЛаборатория с указанным ID не найдена."
+usage-laboratory: "&cИспользование: &f/xfiles laboratory <id>"
+
+# Сообщения успешных операций
+archive-created: "&aАрхив успешно создан!"
+archive-deleted: "&aАрхив успешно удален!"
+laboratory-created: "&aЛаборатория успешно создана!"
+laboratory-deleted: "&aЛаборатория успешно удалена!"
+
+# Сообщения ошибок
+archive-already-exists: "&cАрхив с таким ID уже существует!"
+laboratory-already-exists: "&cЛаборатория с таким ID уже существует!"
+invalid-access-level: "&cНеверный уровень доступа!"

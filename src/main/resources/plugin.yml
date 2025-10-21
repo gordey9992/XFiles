@@ -1,0 +1,42 @@
+name: XFiles
+version: 1.0.0
+main: com.yourname.xfiles.XFiles
+api-version: 1.21
+description: Плагин The X-Files добавляет архивы и лаборатории
+author: YourName
+website: https://github.com/yourname/XFiles
+
+commands:
+  xfiles:
+    description: Основная команда плагина The X-Files
+    usage: /<command> [help|reload|archives|archive|laboratories|laboratory]
+    permission: xfiles.use
+
+permissions:
+  xfiles.*:
+    description: Полный доступ к плагину X-Files
+    children:
+      xfiles.use: true
+      xfiles.reload: true
+      xfiles.archives.list: true
+      xfiles.archives.view: true
+      xfiles.laboratories.list: true
+      xfiles.laboratories.view: true
+  xfiles.use:
+    description: Использование основных команд
+    default: true
+  xfiles.reload:
+    description: Перезагрузка конфигурации
+    default: op
+  xfiles.archives.list:
+    description: Просмотр списка архивов
+    default: op
+  xfiles.archives.view:
+    description: Просмотр информации об архивах
+    default: op
+  xfiles.laboratories.list:
+    description: Просмотр списка лабораторий
+    default: op
+  xfiles.laboratories.view:
+    description: Просмотр информации о лабораториях
+    default: op
